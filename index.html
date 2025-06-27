@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Dreams - Web Design</title>
+  <style>
+    :root {
+      --main-color: #7fff00;
+      --accent-color: #00ffff;
+      --bg-color: #0f2027;
+      --text-light: #ccc;
+      --text-dark: #000;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-color);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      color: var(--main-color);
+      font-size: 2.5rem;
+    }
+
+    header p {
+      color: var(--text-light);
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+      border-bottom: 2px solid var(--accent-color);
+      margin-bottom: 1rem;
+      padding-bottom: 0.3rem;
+    }
+
+    .services ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .services li {
+      background: #222;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-left: 5px solid var(--main-color);
+      font-size: 1.1rem;
+    }
+
+    .flyer img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid white;
+      margin-top: 1rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0.5rem 0;
+      padding: 0.75rem 1.5rem;
+      background: var(--main-color);
+      color: var(--text-dark);
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover {
+      background: #aaff33;
+    }
+
+    footer {
+      background: #111;
+      color: #888;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p, .services li, .contact a {
+        font-size: 1rem;
+      }
+      .contact a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Digital Dreams</h1>
+    <p>Let me bring your business alive in a web design</p>
+  </header>
+
+  <div class="container">
+
+
+
+    <section class="services">
+      <h2>Services</h2>
+      <ul>
+        <li>✅ 1–2 Page website = R750 (3–6 business days)</li>
+        <li>✅ 3–5 Page website = R1200 (5–10 business days)</li>
+        <li>✅ 6–10 Page website = R1800 (10–15 business days)</li>
+        <li>💼 30% deposit is required before work starts</li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>I specialize in website design for individuals and small businesses. I don't provide domains or hosting — I only focus on creating clean, modern websites tailored to your business. If you already have a domain or plan to get one, I'm here to design a site that fits your goals.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>📞 <a href="https://wa.me/27691429411">Chat on WhatsApp</a></p>
+      <p>📧 <a href="mailto:alethea.esau@yahoo.com">Send an Email</a></p>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Digital Dreams | Web Design by Alethea
+  </footer>
+
+</body>
+</html>
